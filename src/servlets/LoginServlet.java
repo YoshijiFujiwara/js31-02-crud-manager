@@ -8,6 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.*;
+import java.util.ArrayList;
 
 @WebServlet(name = "LoginServlet")
 public class LoginServlet extends HttpServlet {
@@ -189,6 +190,18 @@ public class LoginServlet extends HttpServlet {
 //            rd.forward(request, response);
         }
 
+
+
+//        // ２次元配列と１次元を扱う
+//        ArrayList<ArrayList<String>> tbl = new ArrayList<ArrayList<String>>();
+//
+//        while (rs.next()) {
+//            ArrayList<String> rec = new ArrayList<String>();
+//            rec.add(rs.getString("id"));
+//            rec.add(rs.getString("name"));
+//            rec.add(rs.getString("price"));
+//            tbl.add(rec);
+//        }
 
     }
 }
