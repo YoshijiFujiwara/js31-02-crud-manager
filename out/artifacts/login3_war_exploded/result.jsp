@@ -30,6 +30,8 @@
         <%--  ツールバー読み込み　--%>
         <%@ include file="components/toolbar.jsp" %>
         <v-container fluid grid-list-xl>
+            <h2>検索結果: <%=results.size()%>件</h2>
+            <a href="/login3_war_exploded">検索画面に戻る</a>
             <v-data-table
             :headers="headers"
             :items="<%=jsProductArray%>"

@@ -99,7 +99,6 @@
                     </v-data-table>
                 </v-flex>
             </v-layout>
-
         </v-container>
     </v-app>
 </div>

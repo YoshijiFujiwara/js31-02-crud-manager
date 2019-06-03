@@ -10,6 +10,7 @@
     <v-toolbar-title>JV31 管理者画面</v-toolbar-title>
     <v-spacer></v-spacer>
     <v-toolbar-items class="hidden-sm-and-down">
+        <v-btn flat><a href="/login3_war_exploded">検索ページ(仮)</a></v-btn>
         <v-btn flat><a href="/login3_war_exploded/management/products/create">商品登録</a></v-btn>
         <v-btn flat><a href="/login3_war_exploded/management/categories/create">カテゴリー登録</a></v-btn>
     </v-toolbar-items>
